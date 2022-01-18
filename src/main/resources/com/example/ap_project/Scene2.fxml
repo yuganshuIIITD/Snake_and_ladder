@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane layoutX="-1.0" layoutY="-4.0" prefHeight="739.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap_project.Scene2Controller">
+<!--<AnchorPane prefHeight="739.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ap_project.Scene2Controller">-->
+   <children>
+      <ImageView fitHeight="743.0" fitWidth="627.0" layoutX="1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Asset_5.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="player1" layoutX="293.0" layoutY="369.0" prefHeight="34.0" prefWidth="184.0" />
+      <Label layoutX="116.0" layoutY="355.0" prefHeight="62.0" prefWidth="171.0" text="Player 1:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="428.0" text="Player 2:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutY="68.0" prefHeight="94.0" prefWidth="609.0" text="Snake" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="65.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.929411768913269" green="0.8549019694328308" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.13333334028720856" green="0.7411764860153198" blue="0.30980393290519714" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="-1.0" layoutY="153.0" prefHeight="70.0" prefWidth="610.0" text="&amp;" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="47.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.929411768913269" green="0.8549019694328308" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.13333334028720856" green="0.7411764860153198" blue="0.30980393290519714" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="1.0" layoutY="206.0" prefHeight="94.0" prefWidth="610.0" text="Ladder" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="65.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="0.929411768913269" green="0.8549019694328308" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.13333334028720856" green="0.7411764860153198" blue="0.30980393290519714" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="player2" layoutX="293.0" layoutY="437.0" prefHeight="34.0" prefWidth="184.0" />
+      <ImageView fitHeight="81.0" fitWidth="221.0" layoutX="192.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Asset_8.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="204.0" layoutY="539.0" text="Start game">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <Button layoutX="195.0" layoutY="541.0" mnemonicParsing="false" onAction="#startgame" opacity="0.0" prefHeight="51.0" prefWidth="214.0" text="Start Game" textFill="#12862b">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
